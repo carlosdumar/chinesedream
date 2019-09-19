@@ -1,0 +1,15 @@
+.header {
+    margin: 0px;
+    .navbar {
+      &-menu {
+        display: flex;
+        list-style: none;  
+        text-decoration: none;
+        .menu-item {
+            a {
+                // color: white;
+            }
+        }
+      }
+    }
+}

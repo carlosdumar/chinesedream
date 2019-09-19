@@ -1,0 +1,7 @@
+.header {
+  margin: 0px; }
+  .header .navbar-menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none; }
+

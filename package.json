@@ -4,7 +4,9 @@
   "description": "An entrepreneur to give assesory to bring products from China",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon  server.js"
+    "start": "nodemon  server.js",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -18,17 +20,29 @@
   "homepage": "https://github.com/carlosdumar/chinesedream#readme",
   "devDependencies": {
     "@babel/cli": "^7.6.0",
-    "@babel/node": "^7.6.1",
     "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-env": "^7.6.0",
     "@babel/preset-react": "^7.0.0",
+    "@material-ui/icons": "^4.4.1",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
     "nodemon": "^1.19.2",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.1.0",
     "webpack": "^4.39.3",
     "webpack-cli": "^3.3.8"
   },
   "dependencies": {
+    "@material-ui/core": "^4.4.2",
     "express": "^4.17.1",
+    "normalize.css": "^8.0.1",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }
