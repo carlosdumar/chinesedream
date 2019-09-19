@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "76cd4f71f28bb16cc86e";
+/******/ 	var hotCurrentHash = "71e80ac8c709c467265b";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -77161,8 +77161,8 @@ function Header() {
       setOpenMenu = _useState4[1];
 
   function handleToggleIconMenu(e) {
-    setToggleIconMenu(e.target.id === "menu" ? false : true);
-    setOpenMenu(e.target.id === "menu" ? true : false);
+    setToggleIconMenu(e.target.id === "menuIcon" ? false : true);
+    setOpenMenu(e.target.id === "menuIcon" ? true : false);
   }
 
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -77180,7 +77180,7 @@ function Header() {
     className: classes.menuButton,
     onClick: handleToggleIconMenu
   }, toggleIconMenu ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    id: "menu"
+    id: "menuIcon"
   }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Close__WEBPACK_IMPORTED_MODULE_4___default.a, null)))));
 }
 
