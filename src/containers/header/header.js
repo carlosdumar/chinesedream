@@ -6,8 +6,11 @@ import CloseIcon from '@material-ui/icons/Close';
 import AppBar from '@material-ui/core/AppBar';
 import Navbar from '../../components/Header/Navbar';
 import { Toolbar } from '@material-ui/core';
+import TopBar from '../../components/Header/topbar'
 
 import logo from '../../assets/images/chinaentumano.png';
+
+import './header.scss';
 
 const useStyles = makeStyles(theme => ({
     root: {
@@ -25,17 +28,16 @@ const useStyles = makeStyles(theme => ({
       flexGrow: 1,
     },
     image: {
-        height: '90px'
+        height: '90px',
     },
     toolBar: {
         display: 'grid',
         gridTemplateColumns: 'auto auto 50px',
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        padding: '0px'
     }
   }));
   
-
-
   export default function Header() {
     
     const classes = useStyles();
@@ -48,17 +50,30 @@ const useStyles = makeStyles(theme => ({
     }
     return (
         <div className={classes.root}>
-            <AppBar position="static">
-                <Toolbar className={classes.toolBar}>
-                    <img src={logo} alt="Website Logo" className={classes.image}/>
-                    {openMenu ? <Navbar /> : null }
+            <TopBar />
+            <AppBar position="static" className="appbar">
+                <Toolbar className={`appbar-tool ${classes.toolBar}`}>
+                    <img 
+                        src={logo} 
+                        alt="Website Logo" 
+                        className={classes.image}
+                    />
+                    {/* {
+                        openMenu 
+                            ? <Navbar /> 
+                            : null 
+                    } */}
+                    <Navbar open={openMenu}/>
                     <IconButton 
                         edge="start" 
                         className={classes.menuButton} 
                         onClick={handleToggleIconMenu}
                     >
-                        {toggleIconMenu ? <MenuIcon id="menuIcon"/> : <CloseIcon />}
-
+                        {
+                            toggleIconMenu 
+                                ? <MenuIcon id="menuIcon"/> 
+                                : <CloseIcon />
+                        }
                     </IconButton>
                 </Toolbar>
             </AppBar>

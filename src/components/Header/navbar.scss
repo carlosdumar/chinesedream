@@ -1,0 +1,35 @@
+.navbar {
+    &-help {
+        background-color: #ED462F;
+        span {
+            color: #FDF733;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        &-basic {
+            display: flex;
+            div {
+                text-align: center;
+            }
+        }
+        &-help {
+            display: none;
+        }
+    }
+}
+@media (min-width: 1024px) {
+    .navbar {
+        grid-row: 1 !important;
+        display: unset !important;
+        &-basic {
+            justify-content: space-around;
+            div {
+                text-align: right;
+                // width: auto;
+            }
+        }
+    }
+}
