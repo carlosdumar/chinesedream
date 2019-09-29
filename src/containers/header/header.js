@@ -15,8 +15,6 @@ import './header.scss';
 const useStyles = makeStyles(theme => ({
     root: {
       flexGrow: 1,
-      height: '90px',
-
     },
     menuButton: {
       marginRight: theme.spacing(2),
@@ -58,11 +56,6 @@ const useStyles = makeStyles(theme => ({
                         alt="Website Logo" 
                         className={classes.image}
                     />
-                    {/* {
-                        openMenu 
-                            ? <Navbar /> 
-                            : null 
-                    } */}
                     <Navbar open={openMenu}/>
                     <IconButton 
                         edge="start" 

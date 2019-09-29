@@ -11,7 +11,9 @@ const useStyles = makeStyles(theme => ({
         width: '100%',
         gridRow: '2',
         color: 'black',
-        gridColumn: 'span 3'
+        gridColumn: 'span 3',
+        flexDirection: 'column',
+        padding: '0px'
     },
     listItem: {
         display: 'flex',

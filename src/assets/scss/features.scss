@@ -1,0 +1,17 @@
+.characteristics {
+    .responsive,
+    .powerful,
+    .support {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 40px;
+        &-main {
+            margin-left: 30px;
+            margin-bottom: 30px;
+            h3,
+            a {
+                text-transform: uppercase;
+            }
+        }
+    }
+}
