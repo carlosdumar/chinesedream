@@ -1,15 +1,27 @@
 import React, {Component} from 'react'
-import Powerful from '../../components/Features/powerful'
+import Features from '../../components/Features/features'
+import FeaturesItem from '../../components/Features/featureItem'
 
-class Features extends Component {
+class FeaturesContainer extends Component {
     state = {
-        
+        icons: {
+            computerIcon: 'computerIcon',
+            translateIcon: 'translateIcon',
+            livehelpIcon: 'livehelpIcon'
+        }
     }
     render() {
+        
+        const { computerIcon, translateIcon, livehelpIcon } = this.state.icons;
+
         return (
-            <Powerful />
+            <Features>
+                <FeaturesItem iconSelected={computerIcon} />
+                <FeaturesItem iconSelected={translateIcon} />
+                <FeaturesItem iconSelected={livehelpIcon} />
+            </Features>
         )
     }
 }
 
-export default Features;
+export default FeaturesContainer;

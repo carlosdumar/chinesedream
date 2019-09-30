@@ -63,24 +63,22 @@
   .carousel-item img {
     height: 500px; } }
 
-.characteristics .responsive,
-.characteristics .powerful,
-.characteristics .support {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 40px; }
-  .characteristics .responsive-main,
-  .characteristics .powerful-main,
-  .characteristics .support-main {
-    margin-left: 30px;
-    margin-bottom: 30px; }
-    .characteristics .responsive-main h3,
-    .characteristics .responsive-main a,
-    .characteristics .powerful-main h3,
-    .characteristics .powerful-main a,
-    .characteristics .support-main h3,
-    .characteristics .support-main a {
-      text-transform: uppercase; }
+.features {
+  padding-top: 20px; }
+  .features .feature {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px; }
+    .features .feature-main {
+      margin-left: 30px;
+      margin-bottom: 30px; }
+      .features .feature-main h3,
+      .features .feature-main a {
+        text-transform: uppercase; }
+
+@media (min-width: 1024px) {
+  .features {
+    display: flex; } }
 
 
 /*# sourceMappingURL=main.css.map*/

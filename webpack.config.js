@@ -39,6 +39,10 @@ module.exports = {
                         loader: 'url-loader',
                     },
                 ],
+            },
+            {
+                test: /\.ts$/,
+                use: 'ts-loader'
             }
         ]
     },

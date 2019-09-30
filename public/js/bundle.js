@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "2143d6f2254a46936984";
+/******/ 	var hotCurrentHash = "3d9248ab4b5c0f727f34";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -90825,31 +90825,28 @@ function Carrousel() {
 
 /***/ }),
 
-/***/ "./src/components/Features/powerful.js":
-/*!*********************************************!*\
-  !*** ./src/components/Features/powerful.js ***!
-  \*********************************************/
+/***/ "./src/components/Features/featureItem.js":
+/*!************************************************!*\
+  !*** ./src/components/Features/featureItem.js ***!
+  \************************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Powerful; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return FeautureItem; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/styles */ "./node_modules/@material-ui/styles/esm/index.js");
-/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
-/* harmony import */ var _material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/ArrowRight */ "./node_modules/@material-ui/icons/ArrowRight.js");
-/* harmony import */ var _material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/icons/Computer */ "./node_modules/@material-ui/icons/Computer.js");
-/* harmony import */ var _material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/icons/Translate */ "./node_modules/@material-ui/icons/Translate.js");
-/* harmony import */ var _material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/icons/LiveHelp */ "./node_modules/@material-ui/icons/LiveHelp.js");
-/* harmony import */ var _material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _assets_scss_features_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/scss/features.scss */ "./src/assets/scss/features.scss");
-/* harmony import */ var _assets_scss_features_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_features_scss__WEBPACK_IMPORTED_MODULE_7__);
-
+/* harmony import */ var _material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/icons/ArrowRight */ "./node_modules/@material-ui/icons/ArrowRight.js");
+/* harmony import */ var _material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/Computer */ "./node_modules/@material-ui/icons/Computer.js");
+/* harmony import */ var _material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/icons/Translate */ "./node_modules/@material-ui/icons/Translate.js");
+/* harmony import */ var _material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/icons/LiveHelp */ "./node_modules/@material-ui/icons/LiveHelp.js");
+/* harmony import */ var _material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
 
 
 
@@ -90859,52 +90856,77 @@ __webpack_require__.r(__webpack_exports__);
 
 var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
   return {
-    // link: {
-    //     margin: theme.spacing(1),
-    //   },
     icon: {
       color: '#ED462F'
     }
   };
 });
-function Powerful() {
+function FeautureItem(props) {
+  var classes = useStyles();
+  var iconSelected = props.iconSelected;
+  var icon = 'computerIcon';
+
+  if (iconSelected === 'computerIcon') {
+    icon = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      fontSize: "large",
+      className: classes.icon
+    });
+  } else if (iconSelected === 'translateIcon') {
+    icon = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_4___default.a, {
+      fontSize: "large",
+      className: classes.icon
+    });
+  } else if (iconSelected === 'livehelpIcon') {
+    icon = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_5___default.a, {
+      fontSize: "large",
+      className: classes.icon
+    });
+  }
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
+    className: "feature"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "feature-image"
+  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "feature-main"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "100% Responsive"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    href: "#"
+  }, "Read More", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_2___default.a, null))));
+}
+
+/***/ }),
+
+/***/ "./src/components/Features/features.js":
+/*!*********************************************!*\
+  !*** ./src/components/Features/features.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Features; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/styles */ "./node_modules/@material-ui/styles/esm/index.js");
+/* harmony import */ var _assets_scss_features_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../assets/scss/features.scss */ "./src/assets/scss/features.scss");
+/* harmony import */ var _assets_scss_features_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_features_scss__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
+  return {
+    icon: {
+      color: '#ED462F'
+    }
+  };
+});
+function Features(_ref) {
+  var children = _ref.children;
   var classes = useStyles();
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
-    className: "characteristics"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "responsive"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "responsive-image"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Computer__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    fontSize: "large",
-    className: classes.icon
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "responsive-main"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "100% Responsive"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "#"
-  }, "Read More", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_3___default.a, null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "powerful"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "powerful-image"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Translate__WEBPACK_IMPORTED_MODULE_5___default.a, {
-    fontSize: "large",
-    className: classes.icon
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "powerful-main"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Powerful Features"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "#"
-  }, "Read More", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_3___default.a, null)))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
-    className: "support"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "support-image"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_LiveHelp__WEBPACK_IMPORTED_MODULE_6___default.a, {
-    fontSize: "large",
-    className: classes.icon
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "support-main"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "Customer Support"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    href: "#"
-  }, "Read More", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_3___default.a, null)))));
+    className: "features"
+  }, children);
 }
 
 /***/ }),
@@ -91081,7 +91103,8 @@ function TopBar() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_Features_powerful__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Features/powerful */ "./src/components/Features/powerful.js");
+/* harmony import */ var _components_Features_features__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Features/features */ "./src/components/Features/features.js");
+/* harmony import */ var _components_Features_featureItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Features/featureItem */ "./src/components/Features/featureItem.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -91105,40 +91128,57 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-var Features =
+
+var FeaturesContainer =
 /*#__PURE__*/
 function (_Component) {
-  _inherits(Features, _Component);
+  _inherits(FeaturesContainer, _Component);
 
-  function Features() {
+  function FeaturesContainer() {
     var _getPrototypeOf2;
 
     var _this;
 
-    _classCallCheck(this, Features);
+    _classCallCheck(this, FeaturesContainer);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
     }
 
-    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Features)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(FeaturesContainer)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
-    _defineProperty(_assertThisInitialized(_this), "state", {});
+    _defineProperty(_assertThisInitialized(_this), "state", {
+      icons: {
+        computerIcon: 'computerIcon',
+        translateIcon: 'translateIcon',
+        livehelpIcon: 'livehelpIcon'
+      }
+    });
 
     return _this;
   }
 
-  _createClass(Features, [{
+  _createClass(FeaturesContainer, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features_powerful__WEBPACK_IMPORTED_MODULE_1__["default"], null);
+      var _this$state$icons = this.state.icons,
+          computerIcon = _this$state$icons.computerIcon,
+          translateIcon = _this$state$icons.translateIcon,
+          livehelpIcon = _this$state$icons.livehelpIcon;
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features_features__WEBPACK_IMPORTED_MODULE_1__["default"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features_featureItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        iconSelected: computerIcon
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features_featureItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        iconSelected: translateIcon
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Features_featureItem__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        iconSelected: livehelpIcon
+      }));
     }
   }]);
 
-  return Features;
+  return FeaturesContainer;
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
-/* harmony default export */ __webpack_exports__["default"] = (Features);
+/* harmony default export */ __webpack_exports__["default"] = (FeaturesContainer);
 
 /***/ }),
 

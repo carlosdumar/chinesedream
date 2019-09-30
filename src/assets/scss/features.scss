@@ -1,7 +1,6 @@
-.characteristics {
-    .responsive,
-    .powerful,
-    .support {
+.features {
+    padding-top: 20px;
+    .feature {
         display: flex;
         justify-content: space-between;
         padding: 10px 40px;
@@ -13,5 +12,11 @@
                 text-transform: uppercase;
             }
         }
+    }
+}
+
+@media (min-width: 1024px) {
+    .features {
+        display: flex;
     }
 }

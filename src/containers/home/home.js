@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Header from '../header/header';
 import Carrousel from '../../components/Carrousel/carrousel';
-import Features from '../../containers/features/features';
+import FeaturesContainer from '../../containers/features/features';
 
 class Home extends Component {
     render() {
@@ -9,7 +9,7 @@ class Home extends Component {
             <div>
                 <Header />
                 <Carrousel />
-                <Features />
+                <FeaturesContainer />
             </div> 
         )
     }
