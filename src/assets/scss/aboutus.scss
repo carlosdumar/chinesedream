@@ -1,0 +1,44 @@
+.about-us {
+    &__main {
+        padding: 30px;
+        .title {
+            text-transform: uppercase;
+        }
+        .subtitle {
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+        .list {
+            list-style: none;
+            padding: 0px;
+            margin-bottom: 40px;
+            &__item {
+                margin-bottom: 15px;
+            }
+        }
+        .learn-more {
+            border: 1px solid #ED462F;
+            padding: 15px 50px;
+            color: #ED462F;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .about-us {
+        position: relative;
+        &__main {
+            position: absolute;
+            width: 590px;
+            top: 40px;
+            right: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 12px #ddd;
+        }
+        &__image {
+            height: 700px;
+        }
+    }
+}

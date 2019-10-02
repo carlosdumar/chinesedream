@@ -1,10 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 
-
-
-
-
 import '../../assets/scss/features.scss';
 
 const useStyles = makeStyles(theme => ({

@@ -80,5 +80,39 @@
   .features {
     display: flex; } }
 
+.about-us__main {
+  padding: 30px; }
+  .about-us__main .title {
+    text-transform: uppercase; }
+  .about-us__main .subtitle {
+    font-style: italic;
+    margin-bottom: 30px; }
+  .about-us__main .list {
+    list-style: none;
+    padding: 0px;
+    margin-bottom: 40px; }
+    .about-us__main .list__item {
+      margin-bottom: 15px; }
+  .about-us__main .learn-more {
+    border: 1px solid #ED462F;
+    padding: 15px 50px;
+    color: #ED462F;
+    font-weight: 600;
+    text-transform: uppercase; }
+
+@media (min-width: 1024px) {
+  .about-us {
+    position: relative; }
+    .about-us__main {
+      position: absolute;
+      width: 590px;
+      top: 40px;
+      right: 20px;
+      background-color: white;
+      box-shadow: 0px 0px 12px #ddd; }
+    .about-us__image {
+      height: 700px;
+      } }
+
 
 /*# sourceMappingURL=main.css.map*/

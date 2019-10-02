@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from '../header/header';
 import Carrousel from '../../components/Carrousel/carrousel';
 import FeaturesContainer from '../../containers/features/features';
+import AboutUsContainer from '../../containers/aboutus/aboutus';
 
 class Home extends Component {
     render() {
@@ -10,6 +11,7 @@ class Home extends Component {
                 <Header />
                 <Carrousel />
                 <FeaturesContainer />
+                <AboutUsContainer />
             </div> 
         )
     }
