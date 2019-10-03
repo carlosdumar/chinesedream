@@ -1,0 +1,32 @@
+.what-we-do {
+    text-align: center;
+    margin-top: 30px;
+    h4 {
+        text-transform: uppercase;
+        span {
+            color: #ED462F;
+        }
+    }
+    &__description {
+        padding: 20px;
+        font-style: italic;
+        color: gray;
+    }
+}
+
+@media (min-width: 768px) {
+    .what-we-do {
+        &__bubble {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .what-we-do {
+        &__bubble {
+            display: flex;
+        }
+    }
+}

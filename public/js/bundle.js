@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "851806e935123141c6d9";
+/******/ 	var hotCurrentHash = "2f3378cef3e848984215";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -34668,6 +34668,35 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./node_modules/@material-ui/icons/Brush.js":
+/*!**************************************************!*\
+  !*** ./node_modules/@material-ui/icons/Brush.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M7 14c-1.66 0-3 1.34-3 3 0 1.31-1.16 2-2 2 .92 1.22 2.49 2 4 2 2.21 0 4-1.79 4-4 0-1.66-1.34-3-3-3zm13.71-9.37l-1.34-1.34a.9959.9959 0 00-1.41 0L9 12.25 11.75 15l8.96-8.96c.39-.39.39-1.02 0-1.41z"
+}), 'Brush');
+
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./node_modules/@material-ui/icons/Check.js":
 /*!**************************************************!*\
   !*** ./node_modules/@material-ui/icons/Check.js ***!
@@ -34726,6 +34755,35 @@ exports.default = _default;
 
 /***/ }),
 
+/***/ "./node_modules/@material-ui/icons/CloudDownload.js":
+/*!**********************************************************!*\
+  !*** ./node_modules/@material-ui/icons/CloudDownload.js ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+}), 'CloudDownload');
+
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./node_modules/@material-ui/icons/Computer.js":
 /*!*****************************************************!*\
   !*** ./node_modules/@material-ui/icons/Computer.js ***!
@@ -34750,6 +34808,35 @@ var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/crea
 var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
   d: "M20 18c1.1 0 1.99-.9 1.99-2L22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2H0v2h24v-2h-4zM4 6h16v10H4V6z"
 }), 'Computer');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/icons/EmojiObjects.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/@material-ui/icons/EmojiObjects.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
+  d: "M12 3c-.46 0-.93.04-1.4.14-2.76.53-4.96 2.76-5.48 5.52-.48 2.61.48 5.01 2.22 6.56.43.38.66.91.66 1.47V19c0 1.1.9 2 2 2h.28c.35.6.98 1 1.72 1s1.38-.4 1.72-1H14c1.1 0 2-.9 2-2v-2.31c0-.55.22-1.09.64-1.46C18.09 13.95 19 12.08 19 10c0-3.87-3.13-7-7-7zm2 16h-4v-1h4v1zm0-2h-4v-1h4v1zm-1.5-5.59V14h-1v-2.59L9.67 9.59l.71-.71L12 10.5l1.62-1.62.71.71-1.83 1.82z"
+}), 'EmojiObjects');
 
 exports.default = _default;
 
@@ -34808,6 +34895,40 @@ var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/crea
 var _default = (0, _createSvgIcon.default)(_react.default.createElement("path", {
   d: "M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
 }), 'Menu');
+
+exports.default = _default;
+
+/***/ }),
+
+/***/ "./node_modules/@material-ui/icons/Settings.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/@material-ui/icons/Settings.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var _interopRequireDefault = __webpack_require__(/*! @babel/runtime/helpers/interopRequireDefault */ "./node_modules/@babel/runtime/helpers/interopRequireDefault.js");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _createSvgIcon = _interopRequireDefault(__webpack_require__(/*! ./utils/createSvgIcon */ "./node_modules/@material-ui/icons/utils/createSvgIcon.js"));
+
+var _default = (0, _createSvgIcon.default)(_react.default.createElement(_react.default.Fragment, null, _react.default.createElement("path", {
+  transform: "scale(1.2, 1.2)",
+  fill: "none",
+  d: "M0 0h20v20H0V0z"
+}), _react.default.createElement("path", {
+  transform: "scale(1.2, 1.2)",
+  d: "M15.95 10.78c.03-.25.05-.51.05-.78s-.02-.53-.06-.78l1.69-1.32c.15-.12.19-.34.1-.51l-1.6-2.77c-.1-.18-.31-.24-.49-.18l-1.99.8c-.42-.32-.86-.58-1.35-.78L12 2.34c-.03-.2-.2-.34-.4-.34H8.4c-.2 0-.36.14-.39.34l-.3 2.12c-.49.2-.94.47-1.35.78l-1.99-.8c-.18-.07-.39 0-.49.18l-1.6 2.77c-.1.18-.06.39.1.51l1.69 1.32c-.04.25-.07.52-.07.78s.02.53.06.78L2.37 12.1c-.15.12-.19.34-.1.51l1.6 2.77c.1.18.31.24.49.18l1.99-.8c.42.32.86.58 1.35.78l.3 2.12c.04.2.2.34.4.34h3.2c.2 0 .37-.14.39-.34l.3-2.12c.49-.2.94-.47 1.35-.78l1.99.8c.18.07.39 0 .49-.18l1.6-2.77c.1-.18.06-.39-.1-.51l-1.67-1.32zM10 13c-1.65 0-3-1.35-3-3s1.35-3 3-3 3 1.35 3 3-1.35 3-3 3z"
+})), 'Settings');
 
 exports.default = _default;
 
@@ -90748,9 +90869,31 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAuQAAAGQCAMAAADR
 
 /***/ }),
 
+/***/ "./src/assets/scss/bubble.scss":
+/*!*************************************!*\
+  !*** ./src/assets/scss/bubble.scss ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "./src/assets/scss/features.scss":
 /*!***************************************!*\
   !*** ./src/assets/scss/features.scss ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
+/***/ "./src/assets/scss/whatwedo.scss":
+/*!***************************************!*\
+  !*** ./src/assets/scss/whatwedo.scss ***!
   \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -91240,6 +91383,55 @@ function TopBar() {
 
 /***/ }),
 
+/***/ "./src/components/WhatWeDo/bubble.js":
+/*!*******************************************!*\
+  !*** ./src/components/WhatWeDo/bubble.js ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Bubble; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _material_ui_styles__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @material-ui/styles */ "./node_modules/@material-ui/styles/esm/index.js");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _material_ui_core_Link__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Link */ "./node_modules/@material-ui/core/esm/Link/index.js");
+/* harmony import */ var _assets_scss_bubble_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../assets/scss/bubble.scss */ "./src/assets/scss/bubble.scss");
+/* harmony import */ var _assets_scss_bubble_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_bubble_scss__WEBPACK_IMPORTED_MODULE_4__);
+
+
+
+
+
+var useStyles = Object(_material_ui_styles__WEBPACK_IMPORTED_MODULE_1__["makeStyles"])(function (theme) {
+  return {};
+});
+function Bubble(props) {
+  var classes = useStyles();
+  var bubbleTitle = props.bubbleTitle,
+      bubbleText = props.bubbleText;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bubble"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "circle circle-big"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "circle circle-mid"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "circle circle-small"
+  }, props.children))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "bubble-description"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    href: "#"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    variant: "h5",
+    gutterBottom: true
+  }, bubbleTitle)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, bubbleText)));
+}
+
+/***/ }),
+
 /***/ "./src/containers/aboutus/aboutus.js":
 /*!*******************************************!*\
   !*** ./src/containers/aboutus/aboutus.js ***!
@@ -91526,6 +91718,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Carrousel_carrousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Carrousel/carrousel */ "./src/components/Carrousel/carrousel.js");
 /* harmony import */ var _containers_features_features__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../containers/features/features */ "./src/containers/features/features.js");
 /* harmony import */ var _containers_aboutus_aboutus__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../containers/aboutus/aboutus */ "./src/containers/aboutus/aboutus.js");
+/* harmony import */ var _containers_whatwedo_whatwedo__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../containers/whatwedo/whatwedo */ "./src/containers/whatwedo/whatwedo.js");
+/* harmony import */ var _material_ui_core_Divider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Divider */ "./node_modules/@material-ui/core/esm/Divider/index.js");
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -91550,6 +91744,8 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 
 
+
+
 var Home =
 /*#__PURE__*/
 function (_Component) {
@@ -91564,7 +91760,13 @@ function (_Component) {
   _createClass(Home, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Carrousel_carrousel__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_features_features__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_aboutus_aboutus__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_header_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Carrousel_carrousel__WEBPACK_IMPORTED_MODULE_2__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_features_features__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_aboutus_aboutus__WEBPACK_IMPORTED_MODULE_4__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Divider__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        sytle: {
+          width: '70%',
+          marginLeft: 'auto',
+          marginRight: 'auto'
+        }
+      }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_containers_whatwedo_whatwedo__WEBPACK_IMPORTED_MODULE_5__["default"], null));
     }
   }]);
 
@@ -91572,6 +91774,115 @@ function (_Component) {
 }(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./src/containers/whatwedo/whatwedo.js":
+/*!*********************************************!*\
+  !*** ./src/containers/whatwedo/whatwedo.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_WhatWeDo_bubble__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/WhatWeDo/bubble */ "./src/components/WhatWeDo/bubble.js");
+/* harmony import */ var _material_ui_icons_EmojiObjects__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/icons/EmojiObjects */ "./node_modules/@material-ui/icons/EmojiObjects.js");
+/* harmony import */ var _material_ui_icons_EmojiObjects__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_EmojiObjects__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_icons_CloudDownload__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/icons/CloudDownload */ "./node_modules/@material-ui/icons/CloudDownload.js");
+/* harmony import */ var _material_ui_icons_CloudDownload__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_CloudDownload__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_icons_Brush__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/icons/Brush */ "./node_modules/@material-ui/icons/Brush.js");
+/* harmony import */ var _material_ui_icons_Brush__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Brush__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_icons_Settings__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/icons/Settings */ "./node_modules/@material-ui/icons/Settings.js");
+/* harmony import */ var _material_ui_icons_Settings__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Settings__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/core/Typography */ "./node_modules/@material-ui/core/esm/Typography/index.js");
+/* harmony import */ var _assets_scss_whatwedo_scss__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../assets/scss/whatwedo.scss */ "./src/assets/scss/whatwedo.scss");
+/* harmony import */ var _assets_scss_whatwedo_scss__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_assets_scss_whatwedo_scss__WEBPACK_IMPORTED_MODULE_7__);
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+
+
+
+
+
+
+
+
+
+var WhatWeDoContainer =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(WhatWeDoContainer, _Component);
+
+  function WhatWeDoContainer() {
+    _classCallCheck(this, WhatWeDoContainer);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(WhatWeDoContainer).apply(this, arguments));
+  }
+
+  _createClass(WhatWeDoContainer, [{
+    key: "render",
+    value: function render() {
+      var text = "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum";
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "what-we-do"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_6__["default"], {
+        variant: "h4",
+        gutterBottom: true
+      }, "What ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, "We Do")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "what-we-do__description"
+      }, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum ea utamur impetus fuisset nam nostrud euismod volumus ne mei."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+        className: "what-we-do__bubble"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WhatWeDo_bubble__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        bubbleTitle: "Idea",
+        bubbleText: text
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_EmojiObjects__WEBPACK_IMPORTED_MODULE_2___default.a, {
+        className: "circle-image",
+        fontSize: "large"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WhatWeDo_bubble__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        bubbleTitle: "Concept",
+        bubbleText: text
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_CloudDownload__WEBPACK_IMPORTED_MODULE_3___default.a, {
+        className: "circle-image",
+        fontSize: "large"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WhatWeDo_bubble__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        bubbleTitle: "Design",
+        bubbleText: text
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Brush__WEBPACK_IMPORTED_MODULE_4___default.a, {
+        className: "circle-image",
+        fontSize: "large"
+      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_WhatWeDo_bubble__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        bubbleTitle: "Develop",
+        bubbleText: text
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Settings__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        className: "circle-image",
+        fontSize: "large"
+      }))));
+    }
+  }]);
+
+  return WhatWeDoContainer;
+}(react__WEBPACK_IMPORTED_MODULE_0__["Component"]);
+
+/* harmony default export */ __webpack_exports__["default"] = (WhatWeDoContainer);
 
 /***/ })
 

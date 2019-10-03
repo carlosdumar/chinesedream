@@ -1,0 +1,60 @@
+.circle {
+    border-radius: 50%;
+    &-image {
+        margin-left: 30%;
+        margin-right: 30%;
+        margin-top: 30%;
+        color: white;
+    }
+  }
+  
+  .circle-big {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    border: 2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    &:hover {
+        border: 2px solid #ED462F;
+    }
+  }
+  
+  .circle-mid {
+    transform: translate(18%, 20%);
+    width: 180px;
+    height: 180px;
+    background-color: lighten(gray, 30%);
+    &:hover {
+        background-color: lighten(#ED462F, 30%);
+    }
+  }
+  
+  .circle-small {
+     transform: translate(38%, 40%);
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    &:hover {
+        background-color: #ED462F;
+    }
+  }
+
+.bubble {
+    &-description {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        color: gray;
+        a {
+            text-transform: uppercase;   
+            color: gray;
+            &:hover {
+                color: #ED462F;
+                text-decoration: none;
+            }         
+        }
+    }
+}
