@@ -1,0 +1,31 @@
+.client {
+    margin-bottom: 20px;
+    &-testimonial {
+        background: rgba(225,225,225,0.5);
+        padding: 20px;
+        color: #fff;
+        border-radius: 6px;
+    }
+    .arrow-down {
+        width: 0;
+        height: 0;
+        border-left: 18px solid transparent;
+        border-right: 18px solid transparent;
+        border-top: 18px solid #fff;
+        margin-left: 20px;
+        opacity: .5;
+    }
+    &-info {
+        display: flex;
+        .info {
+            display: flex;
+            flex-direction: column;
+            p {
+                text-transform: uppercase;
+            }
+            span {
+                color: #ED462F;
+            }
+        }
+    }
+}
