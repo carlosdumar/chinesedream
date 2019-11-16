@@ -6,6 +6,7 @@ import AboutUsContainer from '../../containers/aboutus/aboutus';
 import WhatWeDoContainer from '../../containers/whatwedo/whatwedo';
 import Divider from '@material-ui/core/Divider';
 import WhatOurClientSays from '../whatourclientsays/whatourclientsays';
+import Footer from '../../containers/footer/footer';
 
 class Home extends Component {
     render() {
@@ -18,6 +19,7 @@ class Home extends Component {
                 <Divider />
                 <WhatWeDoContainer />
                 <WhatOurClientSays/>
+                <Footer />
             </div> 
         )
     }

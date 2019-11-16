@@ -27,13 +27,13 @@ export default function TopBar() {
             className={`topbar ${classes.root}`}
         >
             <Typography className="topbar-legal">
-                <Link href="#" className={classes.link} alt="Grow Your Legal Practice">
-                    Grow Your Legal Practice
+                <Link href="#" className={classes.link} alt="Ferias">
+                    Ferias
                 </Link>
             </Typography>
             <Typography className="topbar-support">
-                <Link href="#" className={classes.link} alt="Support">
-                    Support
+                <Link href="#" className={classes.link} alt="Contact">
+                    Contact
                 </Link>
             </Typography>
         </Paper>

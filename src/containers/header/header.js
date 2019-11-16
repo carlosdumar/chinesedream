@@ -8,7 +8,7 @@ import Navbar from '../../components/Header/Navbar';
 import { Toolbar } from '@material-ui/core';
 import TopBar from '../../components/Header/topbar'
 
-import logo from '../../assets/images/chinaentumano.png';
+import logo from '../../assets/images/logo.jpg';
 
 import './header.scss';
 
@@ -27,6 +27,7 @@ const useStyles = makeStyles(theme => ({
     },
     image: {
         height: '90px',
+        padding: '5px'
     },
     toolBar: {
         display: 'grid',

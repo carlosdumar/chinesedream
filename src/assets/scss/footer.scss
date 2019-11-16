@@ -1,0 +1,42 @@
+.footer {
+    margin-bottom: 30px;
+
+    &-description {
+        color: white;
+    }
+    &-title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    &-link {
+        width: 100%;
+        border-bottom: solid 1px #3e4752;
+        padding: 5px 0px;
+        display: flex;
+        flex-direction: column;
+        .link {
+            color: white;
+        }
+        .date {
+            color: #939498;
+        }
+    }
+    hr {
+        background-color: #ED462F;
+        width: 50px;
+        height: 3px;
+        border-top: 1px solid #34363e;
+        display: inline-block;
+    }
+}
+@media (min-width: 768px) {
+    .footers {
+        display: flex;
+        .footer {
+            padding: 0px 20px;
+        }
+        article:nth-child(even) {
+            width: 30%;
+        }
+    }
+}
