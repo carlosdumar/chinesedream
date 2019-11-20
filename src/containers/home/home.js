@@ -8,10 +8,12 @@ import Divider from '@material-ui/core/Divider';
 import WhatOurClientSays from '../whatourclientsays/whatourclientsays';
 import Footer from '../../containers/footer/footer';
 
+import '../../assets/scss/home.scss';
+
 class Home extends Component {
     render() {
         return (
-            <div>
+            <div className="home">
                 <Header />
                 <Carrousel />
                 <FeaturesContainer />

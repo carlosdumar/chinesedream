@@ -39,10 +39,13 @@ export default function Navbar(props) {
                 <ListItem button>
                     <ListItemText  primary="Nuestros Servicios" />
                 </ListItem>
+                <ListItem button>
+                    <ListItemText  primary="Ferias" />
+                </ListItem>
             </List>
             <List component="nav" className="navbar-help">
                 <ListItem button>
-                    <ListItemText  primary="Ferias" />
+                    <ListItemText  primary="Blog" />
                 </ListItem>
                 <ListItem button>
                     <ListItemText  primary="Contacto" />

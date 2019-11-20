@@ -25,35 +25,27 @@ export default function AboutUs() {
     return (
         <section className="about-us">
             <div className="about-us__image">
-                <img className={classes.image} src="/src/assets/images/woman.jpg" />
+                <img className={classes.image} src="../src/assets/images/woman.jpg" />
             </div>
             <div className="about-us__main">
                 <h2 className="title">About <span className={classes.colorChina}>Us</span></h2>
-                <p className="subtitle">Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut.</p>
+                <p className="subtitle">Somos una empresa joven, perteneciente y operada por profesionales de la industria comercial.</p>
                 <ul className="list">
                     <li className="list__item">  
                         <CheckIcon className={classes.colorChina} style={{marginRight: '10px'}}/>
-                        Vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.
+                        Somos agentes comisionistas que conectan a los comerciantes en Sudamérica con los proveedores en China.
                     </li>
                     <li className="list__item">  
                         <CheckIcon className={classes.colorChina} style={{marginRight: '10px'}}/>
-                        legimus copiosae instructior ei ut vix denique fierentis atqui mucius consequat ad pro.
+                        Nos esforzamos por dar un servicio de excelencia al minimizar los altos cargos que pagan los comerciantes al comerciar con China debido a problemas de idioma, barreras culturales, costos de viaje y problemas de calidad.
                     </li>
                     <li className="list__item">  
                         <CheckIcon className={classes.colorChina} style={{marginRight: '10px'}}/>
-                        Ea saperet inimicu ut qui dolor oratio maiestatis ubique mnesarchum.
+                        Cuando trata con nosotros, está aprovechando nuestra experiencia como hablantes nativos de chino y hablantes nativos de español con una amplia red de proveedores en China.
                     </li>
                     <li className="list__item">  
                         <CheckIcon className={classes.colorChina} style={{marginRight: '10px'}}/>
-                        Sanctus voluptatibus et per illum noluisse facilisis quo atqui mucius ad pro.
-                    </li>
-                    <li className="list__item">  
-                        <CheckIcon className={classes.colorChina} style={{marginRight: '10px'}}/>
-                        At illum noluisse facilisis quo te dictas epicurei suavitate qui his ad.
-                    </li>
-                    <li className="list__item">  
-                        <CheckIcon className={classes.colorChina} style={{marginRight: '10px'}}/>
-                        Tantas propriae mediocritatem id vix qui everti efficiantur an ocurreret consetetur.
+                        Ponemos en primer lugar el interés de nuestros clientes y nos aseguramos de cumplir lo que prometemos a precios competitivos.
                     </li>
                 </ul>
                 <Link className="learn-more" href="#">Learn More<ArrowRightIcon /></Link>

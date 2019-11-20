@@ -20,7 +20,6 @@ const useStyles = makeStyles(theme => ({
         textTransform: 'uppercase'
     },
     imageCarrousel: {
-        // opacity: '0.5'
         height: '300px'
     }
 }));
@@ -30,7 +29,7 @@ export default function Carrousel() {
     const classes = useStyles();
 
     return (
-        <Carousel prevIcon={<ArrowBackIosIcon />} nextIcon={<ArrowForwardIosIcon />}>
+        <Carousel prevIcon={<ArrowBackIosIcon fontSize="large"/>} nextIcon={<ArrowForwardIosIcon fontSize="large" />}>
             <Carousel.Item>
                 <img
                     className={`${classes.imageCarrousel} d-block w-100`}

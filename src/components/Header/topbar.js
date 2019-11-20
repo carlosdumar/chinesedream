@@ -28,12 +28,12 @@ export default function TopBar() {
         >
             <Typography className="topbar-legal">
                 <Link href="#" className={classes.link} alt="Ferias">
-                    Ferias
+                    Blog
                 </Link>
             </Typography>
             <Typography className="topbar-support">
                 <Link href="#" className={classes.link} alt="Contact">
-                    Contact
+                    Contacto
                 </Link>
             </Typography>
         </Paper>

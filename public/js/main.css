@@ -4,6 +4,7 @@
     color: #FDF733; }
 
 .navbar-help, .navbar-basic {
+  text-transform: uppercase;
   width: 100%; }
 
 @media (min-width: 768px) {
@@ -21,13 +22,15 @@
     .navbar-basic {
       justify-content: space-around; }
       .navbar-basic div {
-        text-align: right; } }
+        text-align: right;
+        width: unset; } }
 
-.topbar-legal {
-  border-right: 1px solid lightgray; }
-
-.topbar a:hover {
-  text-decoration: none; }
+.topbar {
+  text-transform: uppercase; }
+  .topbar-legal {
+    border-right: 1px solid lightgray; }
+  .topbar a:hover {
+    text-decoration: none; }
 
 @media (min-width: 480px) {
   .topbar {
@@ -51,7 +54,7 @@
 
 @media (min-width: 1024px) {
   .appbar-tool {
-    grid-template-columns: 150px auto auto !important;
+    grid-template-columns: 350px auto auto auto !important;
     padding-right: 60px !important;
     padding-left: 60px !important; }
   .appbar img {
@@ -265,6 +268,9 @@
       padding: 0px 20px; }
     .footers article:nth-child(even) {
       width: 30%; } }
+
+.home {
+  font-family: 'Open Sans', sans-serif; }
 
 
 /*# sourceMappingURL=main.css.map*/

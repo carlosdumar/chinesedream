@@ -40,6 +40,22 @@ export default function FeautureItem(props) {
                 <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.</p>
                 <Link href="#">Read More<ArrowRightIcon/></Link>
             </div>
+            <div className="feature-image">
+                {icon}
+            </div>
+            <div className="feature-main">
+                <h3>POWERFUL FEATURES</h3>
+                <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.</p>
+                <Link href="#">Read More<ArrowRightIcon/></Link>
+            </div>
+            <div className="feature-image">
+                {icon}
+            </div>
+            <div className="feature-main">
+                <h3>CUSTOMER SUPPORT</h3>
+                <p>Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum.</p>
+                <Link href="#">Read More<ArrowRightIcon/></Link>
+            </div>
         </article>
     )
 }

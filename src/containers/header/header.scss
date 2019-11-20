@@ -18,7 +18,7 @@
 @media (min-width: 1024px) {
   .appbar {
     &-tool {
-      grid-template-columns: 150px auto auto !important;
+      grid-template-columns: 350px auto auto auto !important;
       padding-right: 60px !important;
       padding-left: 60px !important;
     }

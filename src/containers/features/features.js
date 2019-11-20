@@ -17,8 +17,8 @@ class FeaturesContainer extends Component {
         return (
             <Features>
                 <FeaturesItem iconSelected={computerIcon} />
-                <FeaturesItem iconSelected={translateIcon} />
-                <FeaturesItem iconSelected={livehelpIcon} />
+                {/* <FeaturesItem iconSelected={translateIcon} />
+                <FeaturesItem iconSelected={livehelpIcon} /> */}
             </Features>
         )
     }
