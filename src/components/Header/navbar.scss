@@ -10,12 +10,22 @@
         text-transform: uppercase;
         width: 100%;
     }
+    &-basic {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    &-item {
+        &:hover {
+            border-bottom: 4px solid #ED462F;
+        }
+    }
 }
 
 @media (min-width: 768px) {
     .navbar {
         &-basic {
             display: flex;
+            padding: 0px !important;
             div {
                 text-align: center;
             }

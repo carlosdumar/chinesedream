@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "0d8047aa63e975fe9ff8";
+/******/ 	var hotCurrentHash = "2cd975fc68271d8f7b58";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -91210,22 +91210,22 @@ function FeautureItem(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("article", {
     className: "feature"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "feature-image"
-  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "feature-main"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "100% Responsive"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "feature-image"
+  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "100% Responsive"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     href: "#"
   }, "Read More", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_2___default.a, null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "feature-image"
-  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "feature-main"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "POWERFUL FEATURES"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "feature-image"
+  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "POWERFUL FEATURES"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     href: "#"
   }, "Read More", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_2___default.a, null))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "feature-image"
-  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "feature-main"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "CUSTOMER SUPPORT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "feature-image"
+  }, icon), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "CUSTOMER SUPPORT"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet sit legimus copiosae instructior ei ut vix denique fierentis ea saperet inimicu ut qui dolor oratio mnesarchum."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Link__WEBPACK_IMPORTED_MODULE_6__["default"], {
     href: "#"
   }, "Read More", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_ArrowRight__WEBPACK_IMPORTED_MODULE_2___default.a, null))));
 }
@@ -91388,9 +91388,7 @@ var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["ma
       padding: '0px'
     },
     listItem: {
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'unset'
+      borderBottom: '4px solid #ED462F'
     }
   };
 });
@@ -91406,19 +91404,23 @@ function Navbar(props) {
     component: "nav",
     className: "navbar-basic"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    button: true
+    button: true,
+    className: classes.listItem
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_4__["default"], {
     primary: "Inicio"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    button: true
+    button: true,
+    className: "navbar-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_4__["default"], {
     primary: "Nosotros"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    button: true
+    button: true,
+    className: "navbar-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_4__["default"], {
     primary: "Nuestros Servicios"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItem__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    button: true
+    button: true,
+    className: "navbar-item"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_ListItemText__WEBPACK_IMPORTED_MODULE_4__["default"], {
     primary: "Ferias"
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_List__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -91967,7 +91969,7 @@ var useStyles = Object(_material_ui_core_styles__WEBPACK_IMPORTED_MODULE_1__["ma
       flexGrow: 1
     },
     image: {
-      height: '90px',
+      height: '70px',
       padding: '5px'
     },
     toolBar: {

@@ -26,7 +26,7 @@ const useStyles = makeStyles(theme => ({
       flexGrow: 1,
     },
     image: {
-        height: '90px',
+        height: '70px',
         padding: '5px'
     },
     toolBar: {

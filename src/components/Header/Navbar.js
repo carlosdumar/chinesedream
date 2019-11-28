@@ -16,9 +16,7 @@ const useStyles = makeStyles(theme => ({
         padding: '0px'
     },
     listItem: {
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'unset'
+        borderBottom: '4px solid #ED462F'
     },
 }));
 
@@ -30,16 +28,16 @@ export default function Navbar(props) {
     return (
         <div className={`navbar ${classes.root}`} style={{display: openMenu ? null : 'none' }}>
             <List component="nav" className="navbar-basic">
-                <ListItem button>
+                <ListItem button className={classes.listItem}>
                     <ListItemText  primary="Inicio" />
                 </ListItem>
-                <ListItem button>
+                <ListItem button className="navbar-item">
                     <ListItemText  primary="Nosotros" />
                 </ListItem>
-                <ListItem button>
+                <ListItem button className="navbar-item">
                     <ListItemText  primary="Nuestros Servicios" />
                 </ListItem>
-                <ListItem button>
+                <ListItem button className="navbar-item">
                     <ListItemText  primary="Ferias" />
                 </ListItem>
             </List>

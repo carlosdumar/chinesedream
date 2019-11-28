@@ -3,14 +3,26 @@
     .feature {
         display: flex;
         justify-content: space-between;
-        padding: 10px 40px;
+        // padding: 10px 40px;
+        flex-direction: column;
         &-main {
             margin-left: 30px;
             margin-bottom: 30px;
+            display: grid;
+            grid-template-columns: auto auto;
             h3,
             a {
                 text-transform: uppercase;
             }
+
+            h3,
+            a,
+            p {
+                grid-column: 2;
+            }
+        }
+        &-image {
+            margin-right: 20px;
         }
     }
 }
@@ -18,5 +30,8 @@
 @media (min-width: 1024px) {
     .features {
         display: flex;
+        .feature {
+            flex-direction: row;
+        }
     }
 }
