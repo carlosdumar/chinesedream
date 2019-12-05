@@ -2,7 +2,7 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import Link from '@material-ui/core/Link';
+import { Link } from 'react-router-dom';
 
 import './topbar.scss';
 
@@ -27,12 +27,12 @@ export default function TopBar() {
             className={`topbar ${classes.root}`}
         >
             <Typography className="topbar-legal">
-                <Link href="#" className={classes.link} alt="Ferias">
+                <Link to="/blog" className={classes.link} alt="Ferias">
                     Blog
                 </Link>
             </Typography>
             <Typography className="topbar-support">
-                <Link href="#" className={classes.link} alt="Contact">
+                <Link to="#" className={classes.link} alt="Contact">
                     Contacto
                 </Link>
             </Typography>

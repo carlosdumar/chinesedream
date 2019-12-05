@@ -10,21 +10,15 @@ import Footer from '../../containers/footer/footer';
 
 import '../../assets/scss/home.scss';
 
-class Home extends Component {
-    render() {
-        return (
-            <div className="home">
-                <Header />
-                <Carrousel />
-                <FeaturesContainer />
-                <AboutUsContainer />
-                <Divider />
-                <WhatWeDoContainer />
-                <WhatOurClientSays/>
-                <Footer />
-            </div> 
-        )
-    }
-}
+const Home = () => (
+    <div className="home">
+        <Carrousel />
+        <FeaturesContainer />
+        <AboutUsContainer />
+        <Divider />
+        <WhatWeDoContainer />
+        <WhatOurClientSays/>
+    </div> 
+)
 
 export default Home;

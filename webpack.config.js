@@ -8,7 +8,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './public/js'),
         filename: 'bundle.js',
-        publicPath: './',
+        publicPath: './public',
     },
     devtool: 'source-map',
     module: {
@@ -63,6 +63,6 @@ module.exports = {
     ],
     devServer: {
         hot: true,
-        historyApiFallback: true
+        historyApiFallback: true,
     },
 };
